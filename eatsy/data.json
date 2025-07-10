@@ -1,40 +1,40 @@
 {
     "weeks": [
         {
-            "originDate": "2025-06-30",
+            "originDate": "2025-06-29",
             "days": [
                 {
                     "name": "Tuesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Enfrijoladas de pollo",
+                            "ingredients": "Corn tortilla, shredded chicken breast or vegan cheese, blended bean sauce, sliced onion, optional Spanish sausage and pork crackling",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
                             "name": "Pollo a la plancha",
                             "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
+                            "diets": ["GF", "DF"]
                         },
                         {
-                            "name": "Nopales asados",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Fajitas de nopales",
+                            "ingredients": "Cactus stripes, sliced onion",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Papitas salteadas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Cebollas cambray",
+                            "ingredients": "Grilled scallions",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
                             "name": "Arroz rojo",
                             "ingredients": "Rice, tomato-based broth, spices",
-                            "diets": []
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
-                            "diets": []
+                            "name": "Agua de limón",
+                            "ingredients": "Lime flavored water",
+                            "diets": ["GF", "DF", "V"]
                         }
                     ]
                 },
@@ -42,34 +42,34 @@
                     "name": "Wednesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Tostadas de tinga",
+                            "ingredients": "Shredded skirt steak or vegan protein, tomato-based sauce with Chipotle pepper, garlic and onion",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
+                            "name": "Huevo cocido",
+                            "ingredients": "Boiled eggs",
+                            "diets": ["GF", "DF"]
                         },
                         {
-                            "name": "Nopales asados",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Ensalada",
+                            "ingredients": "Mix of greens, cherry tomatoes, sprouts, optional nuts and dressings",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Papitas salteadas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Mix de verduras horneadas",
+                            "ingredients": "Oven baked, carrot, broccoli, cauliflower",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
-                            "diets": []
+                            "name": "Arroz",
+                            "ingredients": "Rice vegetable-based broth, spices",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
-                            "diets": []
+                            "name": "Agua de jamaica",
+                            "ingredients": "Hibiscus flavored water",
+                            "diets": ["GF", "DF", "V"]
                         }
                     ]
                 },
@@ -77,34 +77,29 @@
                     "name": "Thursday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Salmón a la plancha",
+                            "ingredients": "Grilled salmon fillet, cooking oil, salt, pepper",
+                            "diets": ["GF", "DF"]
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
+                            "name": "Brocoli al vapor",
+                            "ingredients": "Steamed broccoli",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Nopales asados",
-                            "ingredients": "",
-                            "diets": []
-                        },
-                        {
-                            "name": "Papitas salteadas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Chícharos a la mantequilla",
+                            "ingredients": "Butter sauteed green peas",
+                            "diets": ["GF", "V"]
                         },
                         {
                             "name": "Arroz rojo",
                             "ingredients": "Rice, tomato-based broth, spices",
-                            "diets": []
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
-                            "diets": []
+                            "name": "Pasta al ajo",
+                            "ingredients": "Wheat pasta, olive oil, garlic",
+                            "diets": ["DF", "V"]
                         }
                     ]
                 }
@@ -117,34 +112,34 @@
                     "name": "Tuesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Flautas ahogadas",
+                            "ingredients": "Shredded chicken, cheese or smashed beans wrapped around a corn tortilla, shallow fried, and a green-tomato based sauce to dip them in",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
                             "name": "Pollo a la plancha",
                             "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
+                            "diets": ["GF", "DF"]
                         },
                         {
                             "name": "Nopales asados",
-                            "ingredients": "",
-                            "diets": []
+                            "ingredients": "Grilled cactus, cooking oil, salt, pepper",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Papitas salteadas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Frijoles negros refritos",
+                            "ingredients": "Low fat refried black beans",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
                             "name": "Arroz rojo",
                             "ingredients": "Rice, tomato-based broth, spices",
-                            "diets": []
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
-                            "diets": []
+                            "name": "Agua de sandia",
+                            "ingredients": "Watermelon flavored water",
+                            "diets": ["GF", "DF", "V"]
                         }
                     ]
                 },
@@ -152,34 +147,34 @@
                     "name": "Wednesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Guisado a la mexicana",
+                            "ingredients": "Beef steak fillets or vegan protein, chopped tomatoes and onion",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
+                            "name": "Huevo hervido",
+                            "ingredients": "Boiled eggs",
+                            "diets": ["GF", "DF"]
                         },
                         {
-                            "name": "Nopales asados",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Calabacitas al orégano",
+                            "ingredients": "Sauteed zucchini, salt, pepper, oregano",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Papitas salteadas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Brócoli al ajo",
+                            "ingredients": "Sauteed broccoli, garlic, salt, pepper",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
-                            "diets": []
+                            "name": "Arroz",
+                            "ingredients": "Rice, vegetable-based broth, spices",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
-                            "diets": []
+                            "name": "Agua de piña",
+                            "ingredients": "Pinneaple flavored water",
+                            "diets": ["GF", "DF", "V"]
                         }
                     ]
                 },
@@ -187,34 +182,34 @@
                     "name": "Thursday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Guisado a la poblana",
+                            "ingredients": "Shredded chicken breast or vegan protein, sour cream (for the chicken option only), Poblano pepper juliennes, corn kernels",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
+                            "name": "Salmón a la plancha",
+                            "ingredients": "Grilled salmon fillet, cooking oil, salt, pepper",
+                            "diets": ["GF", "DF"]
                         },
                         {
-                            "name": "Nopales asados",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Chicharos a la mantequilla",
+                            "ingredients": "Butter sauteed green peas, salt, pepper",
+                            "diets": ["GF", "V"]
                         },
                         {
-                            "name": "Papitas salteadas",
-                            "ingredients": "",
-                            "diets": []
+                            "name": "Arroz de coliflor",
+                            "ingredients": "Crushed cauliflower rice, salt",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
-                            "diets": []
+                            "name": "Frijoles negros refritos",
+                            "ingredients": "Low fat refried black beans",
+                            "diets": ["GF", "DF", "V"]
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
-                            "diets": []
+                            "name": "Té negro helado",
+                            "ingredients": "Iced black tea",
+                            "diets": ["GF", "DF", "V"]
                         }
                     ]
                 }
@@ -227,33 +222,33 @@
                     "name": "Tuesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
-                        },
-                        {
-                            "name": "Nopales asados",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Papitas salteadas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
+                            "name": "",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         }
                     ]
@@ -262,33 +257,33 @@
                     "name": "Wednesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
-                        },
-                        {
-                            "name": "Nopales asados",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Papitas salteadas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
+                            "name": "",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         }
                     ]
@@ -297,33 +292,33 @@
                     "name": "Thursday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
-                        },
-                        {
-                            "name": "Nopales asados",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Papitas salteadas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
+                            "name": "",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         }
                     ]
@@ -337,33 +332,33 @@
                     "name": "Tuesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
-                        },
-                        {
-                            "name": "Nopales asados",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Papitas salteadas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
+                            "name": "",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         }
                     ]
@@ -372,33 +367,33 @@
                     "name": "Wednesday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
-                        },
-                        {
-                            "name": "Nopales asados",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Papitas salteadas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
+                            "name": "",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         }
                     ]
@@ -407,33 +402,33 @@
                     "name": "Thursday",
                     "meals": [
                         {
-                            "name": "Enmoladas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Pollo a la plancha",
-                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
-                            "diets": []
-                        },
-                        {
-                            "name": "Nopales asados",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Papitas salteadas",
+                            "name": "",
                             "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Arroz rojo",
-                            "ingredients": "Rice, tomato-based broth, spices",
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         },
                         {
-                            "name": "Agua de limon",
-                            "ingredients": "Lemon flavored water",
+                            "name": "",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "",
+                            "ingredients": "",
                             "diets": []
                         }
                     ]

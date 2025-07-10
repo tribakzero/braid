@@ -1,5 +1,14 @@
 Handlebars.registerHelper("naturalNumber", (value, options) => parseInt(value) + 1);
-Handlebars.registerHelper("dietsList", (value) => value.length ? `(${value.join(', ')})` : null)
+Handlebars.registerHelper("dietsList", (value) => value.length ? `(${value.join(', ')})` : null);
+Handlebars.registerHelper("date", (value) => {
+  const date = new Date(value);
+  const options = {
+    day: 'numeric',
+    month: 'short'
+  };
+
+  return date.toLocaleDateString('en-US', options);
+})
 
 let schema;
 
@@ -23,6 +32,7 @@ const main = async ()  => {
   document.getElementById('submit').addEventListener('click', async () => {
     const result = await renderEatsy(editor.getValue());
     navigator.clipboard.writeText(result);
+    console.log(editor.getValue());
   });
 
 

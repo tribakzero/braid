@@ -5,7 +5,7 @@
     <ul class="tabs-buttons">
         {{#each weeks}}
         <li>
-            <a href="#tabs-week{{naturalNumber @index}}">Week of {{originDate}}</a>
+            <a href="#tabs-week{{naturalNumber @index}}">Week of {{date originDate}}</a>
         </li>
         {{/each}}
     </ul>
@@ -40,7 +40,11 @@
                                 id="zippy15"
                                 class="accordion__item-title"
                                 >
-                                {{name}}
+                                {{#if name}}
+                                    {{name}}
+                                {{else}}
+                                    Meal to be defined
+                                {{/if}}
                                 {{dietsList diets}}
                                 </h4>
                                 <div class="accordion__item-content">
