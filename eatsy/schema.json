@@ -1,0 +1,109 @@
+{
+  "type": "object",
+  "title": "Eatsy",
+  "options": {
+    "compact": false,
+    "disable_collapse": true
+  },
+  "properties": {
+    "weeks": {
+      "type": "array",
+      "format": "tabs-top",
+      "title": " ",
+      "options": {
+        "disable_array_add": true,
+        "disable_array_delete": true,
+        "disable_array_delete_all_rows": true,
+        "disable_array_delete_last_row": true,
+        "disable_array_reorder": true,
+        "compact": false,
+        "disable_collapse": true
+      },
+      "items": {
+        "type": "object",
+        "title": "week",
+        "headerTemplate": "{{ self.originDate }}",
+        "options": {
+          "compact": true,
+          "disable_collapse": true
+        },
+        "properties": {
+          "originDate": {
+            "type": "string",
+            "format": "date",
+            "title": "origin date"
+          },
+          "days": {
+            "type": "array",
+            "format": "tabs",
+            "title": " ",
+            "options": {
+              "disable_array_add": true,
+              "disable_array_delete": true,
+              "disable_array_delete_all_rows": true,
+              "disable_array_delete_last_row": true,
+              "disable_array_reorder": true,
+              "compact": false,
+              "disable_collapse": true
+            },
+            "items": {
+              "type": "object",
+              "title": "day",
+              "headerTemplate": "{{ self.name }}",
+              "options": {
+                "compact": true,
+                "disable_collapse": true
+              },
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "format": "hidden",
+                  "options": {
+                    "compact": true
+                  }
+                },
+                "meals": {
+                  "type": "array",
+                  "format": "table",
+                  "options": {
+                    "disable_collapse": true,
+                    "disable_array_delete_all_rows": true,
+                    "disable_array_delete_last_row": true
+                  },
+                  "items": {
+                    "type": "object",
+                    "title": "meal",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "ingredients": {
+                        "type": "string"
+                      },
+                      "diets": {
+                        "type": "array",
+                        "format": "select",
+                        "uniqueItems": true,
+                        "items": {
+                          "type": "string",
+                          "enum": ["GF", "DF", "V"],
+                          "options": {
+                            "enum_titles": [
+                              "Gluten-Free",
+                              "Dairy-Free",
+                              "Vegetarian"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

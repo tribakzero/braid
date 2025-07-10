@@ -1,0 +1,133 @@
+<p>
+    <img src="/guide-media/01H4R1SQ9WYJXFMB89FXEY7NPG" alt="CDMX Eatsy" />
+</p>
+<div class="tabs">
+    <ul class="tabs-buttons">
+        {{#each weeks}}
+        <li>
+            <a href="#tabs-week{{naturalNumber @index}}">Week of {{originDate}}</a>
+        </li>
+        {{/each}}
+    </ul>
+    {{#each weeks}}
+        <div id="tabs-week{{naturalNumber @index}}">
+        <div class="accordion accordion--default">
+            <div class="accordion__item">
+            <h4 id="zippyf" class="accordion__item-title">EATSY</h4>
+            <div class="accordion__item-content">
+                <table
+                style="padding: 0; width: 100%;"
+                cellspacing="0"
+                cellpadding="0"
+                >
+                <tbody>
+                    <tr>
+                    {{#each days}}
+                        <td
+                        style="width: 33%; text-align: left; vertical-align: top; padding: 0 100px 0 0;"
+                        >
+                        <h2
+                            style="border-bottom: 1px solid #000; text-transform: uppercase;"
+                        >
+                            {{name}}
+                        </h2>
+                        {{#each meals}}
+                            <div
+                            class="small no-bg accordion accordion--default"
+                            >
+                            <div class="accordion__item">
+                                <h4
+                                id="zippy15"
+                                class="accordion__item-title"
+                                >
+                                {{name}}
+                                {{dietsList diets}}
+                                </h4>
+                                <div class="accordion__item-content">
+                                <p>
+                                    {{#if ingredients}}
+                                        {{ingredients}}
+                                    {{else}}
+                                        Ingredients to be listed
+                                    {{/if}}
+                                </p>
+                                </div>
+                            </div>
+                            </div>
+                        {{/each}}
+                        </td>
+                    {{/each}}
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+        <div class="accordion accordion--default">
+            <div class="accordion__item">
+            <h4 id="zippyo" class="accordion__item-title">PANTRY</h4>
+            <div class="accordion__item-content">
+                <p>&nbsp;</p>
+                <table
+                style="padding: 0; width: 100%;"
+                cellspacing="0"
+                cellpadding="0"
+                >
+                <tbody>
+                    <tr>
+                    <td
+                        style="width: 50%; text-align: left; padding: 0 100px 0 0; vertical-align: middle;"
+                    >
+                        <p>
+                        Our pantry is stocked with snacks and beverages to
+                        keep you going throughout the day.
+                        </p>
+                        <p>
+                        We support like-minded farms, caterers, restaurants,
+                        distributors, and independently-owned snack and
+                        beverage companies within our local food system.
+                        </p>
+                        <br />
+                        <p>&nbsp;</p>
+                    </td>
+                    <td
+                        style="width: 50%; text-align: left; vertical-align: top; padding: 0;"
+                    >
+                        <h2
+                        id="h_01H9164B17712RF2NKFY2THENJ"
+                        style="border-bottom: 1px solid #000; text-transform: uppercase;"
+                        >
+                        <strong>Daily</strong>
+                        </h2>
+                        <p>Hot Coffee and Tea</p>
+                        <p>Still and Sparkling water</p>
+                        <p>Schorle (no added sugar soda, assorted flavors)</p>
+                        <p>Pantry Snacks</p>
+                        <p>Fresh Fruit</p>
+                        <p>Fresh Vegetable Sticks</p>
+                        <p>Cheese Sticks</p>
+                        <p>Oatmeal</p>
+                        <p>Yogurt</p>
+                    </td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+        <div class="accordion accordion--default">
+            <div class="accordion__item">
+            <h4 id="zippyd" class="accordion__item-title">DISHES AND
+                RECYCLING</h4>
+            <div class="accordion__item-content">
+                <p>
+                Do your part by putting dishes and glassware in the trays in
+                the cart for dirty dishes. There's a container on the side
+                for organic waste.
+                </p>
+            </div>
+            </div>
+        </div>
+        </div>
+    {{/each}}
+</div>

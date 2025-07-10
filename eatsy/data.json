@@ -1,0 +1,444 @@
+{
+    "weeks": [
+        {
+            "originDate": "2025-06-30",
+            "days": [
+                {
+                    "name": "Tuesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Wednesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Thursday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "originDate": "2025-07-07",
+            "days": [
+                {
+                    "name": "Tuesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Wednesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Thursday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "originDate": "2025-07-14",
+            "days": [
+                {
+                    "name": "Tuesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Wednesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Thursday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "originDate": "2025-07-21",
+            "days": [
+                {
+                    "name": "Tuesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Wednesday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Thursday",
+                    "meals": [
+                        {
+                            "name": "Enmoladas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Pollo a la plancha",
+                            "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                            "diets": []
+                        },
+                        {
+                            "name": "Nopales asados",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Papitas salteadas",
+                            "ingredients": "",
+                            "diets": []
+                        },
+                        {
+                            "name": "Arroz rojo",
+                            "ingredients": "Rice, tomato-based broth, spices",
+                            "diets": []
+                        },
+                        {
+                            "name": "Agua de limon",
+                            "ingredients": "Lemon flavored water",
+                            "diets": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

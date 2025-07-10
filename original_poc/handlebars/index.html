@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+  </head>
+  <body style="margin: 0;">
+    <script id="template" type="text/x-handlebars-template">
+      <p>
+        <img src="/guide-media/01H4R1SQ9WYJXFMB89FXEY7NPG" alt="CDMX Eatsy" />
+      </p>
+      <div class="tabs">
+        <ul class="tabs-buttons">
+          {{#each weeks}}
+            <li>
+              <a href="#tabs-tab{{inc @index}}">Week of {{originDate}}</a>
+            </li>
+          {{/each}}
+        </ul>
+        {{#each weeks}}
+          <div id="tabs-tab{{inc @index}}">
+            <div class="accordion accordion--default">
+              <div class="accordion__item">
+                <h4 id="zippyf" class="accordion__item-title">EATSY</h4>
+                <div class="accordion__item-content">
+                  <table
+                    style="padding: 0; width: 100%;"
+                    cellspacing="0"
+                    cellpadding="0"
+                  >
+                    <tbody>
+                      <tr>
+                        {{#each days}}
+                          <td
+                            style="width: 33%; text-align: left; vertical-align: top; padding: 0 100px 0 0;"
+                          >
+                            <h2
+                              style="border-bottom: 1px solid #000; text-transform: uppercase;"
+                            >
+                              {{name}}
+                            </h2>
+                            {{#each meals}}
+                              <div
+                                class="small no-bg accordion accordion--default"
+                              >
+                                <div class="accordion__item">
+                                  <h4
+                                    id="zippy15"
+                                    class="accordion__item-title"
+                                  >
+                                    {{name}}
+                                    ({{types}})
+                                  </h4>
+                                  <div class="accordion__item-content">
+                                    <p>{{ingredients}}</p>
+                                  </div>
+                                </div>
+                              </div>
+                            {{/each}}
+                          </td>
+                        {{/each}}
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion accordion--default">
+              <div class="accordion__item">
+                <h4 id="zippyo" class="accordion__item-title">PANTRY</h4>
+                <div class="accordion__item-content">
+                  <p>&nbsp;</p>
+                  <table
+                    style="padding: 0; width: 100%;"
+                    cellspacing="0"
+                    cellpadding="0"
+                  >
+                    <tbody>
+                      <tr>
+                        <td
+                          style="width: 50%; text-align: left; padding: 0 100px 0 0; vertical-align: middle;"
+                        >
+                          <p>
+                            Our pantry is stocked with snacks and beverages to
+                            keep you going throughout the day.
+                          </p>
+                          <p>
+                            We support like-minded farms, caterers, restaurants,
+                            distributors, and independently-owned snack and
+                            beverage companies within our local food system.
+                          </p>
+                          <br />
+                          <p>&nbsp;</p>
+                        </td>
+                        <td
+                          style="width: 50%; text-align: left; vertical-align: top; padding: 0;"
+                        >
+                          <h2
+                            id="h_01H9164B17712RF2NKFY2THENJ"
+                            style="border-bottom: 1px solid #000; text-transform: uppercase;"
+                          >
+                            <strong>Daily</strong>
+                          </h2>
+                          <p>Hot Coffee and Tea</p>
+                          <p>Still and Sparkling water</p>
+                          <p>Schorle (no added sugar soda, assorted flavors)</p>
+                          <p>Pantry Snacks</p>
+                          <p>Fresh Fruit</p>
+                          <p>Fresh Vegetable Sticks</p>
+                          <p>Cheese Sticks</p>
+                          <p>Oatmeal</p>
+                          <p>Yogurt</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion accordion--default">
+              <div class="accordion__item">
+                <h4 id="zippyd" class="accordion__item-title">DISHES AND
+                  RECYCLING</h4>
+                <div class="accordion__item-content">
+                  <p>
+                    Do your part by putting dishes and glassware in the trays in
+                    the cart for dirty dishes. There's a container on the side
+                    for organic waste.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </script>
+    <div style="display: flex; height: 100vh;">
+    <textarea id="source" style="flex: 1 1 50%;">
+      {
+        "weeks": [
+            {
+                "originDate": "June 2",
+                "days": [
+                    {
+                        "name": "Tuesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wednesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thursday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "originDate": "June 9",
+                "days": [
+                    {
+                        "name": "Tuesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wednesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thursday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "originDate": "June 16",
+                "days": [
+                    {
+                        "name": "Tuesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wednesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thursday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "originDate": "June 23",
+                "days": [
+                    {
+                        "name": "Tuesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wednesday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Thursday",
+                        "meals": [
+                            {
+                                "name": "Enmoladasun",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF and V available"
+                            },
+                            {
+                                "name": "Pollo a la plancha",
+                                "ingredients": "Grilled chicken breast fillet, cooking oil, salt, pepper",
+                                "types": "GF, DF"
+                            },
+                            {
+                                "name": "Nopales asados",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "GF, DF, V"
+                            },
+                            {
+                                "name": "Papitas salteadas",
+                                "ingredients": "Ingredients to be listed",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Arroz rojo",
+                                "ingredients": "Rice, tomato-based broth, spices",
+                                "types": "V, GF, DF"
+                            },
+                            {
+                                "name": "Agua de limon",
+                                "ingredients": "Lemon flavored water",
+                                "types": "V, DF, GF"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+      }
+    </textarea>
+    <textarea id="result" style="flex: 1 1 50%;"></textarea>
+    </div>
+
+    <script>
+      Handlebars.registerHelper("inc", (value, options) => parseInt(value) + 1);
+
+      const template = document.getElementById("template").innerHTML;
+      const sourceElement = document.getElementById("source");
+      const result = document.getElementById("result");
+
+      const updateResult = () => {
+        const render = Handlebars.compile(template);
+        console.log(typeof template);
+
+        const sourceString = sourceElement.value;
+        const source = JSON.parse(sourceString);
+        console.log(render(source));
+        result.innerHTML = render(source);
+      };
+
+      updateResult();
+
+      sourceElement.oninput = (event) => {
+        updateResult();
+      };
+    </script>
+  </body>
+</html>
